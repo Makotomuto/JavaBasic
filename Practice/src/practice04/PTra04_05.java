@@ -48,6 +48,10 @@ public class PTra04_05 {
 				System.out.println("グー！");
 				if(myHand == 2) {
 					winFlg = true;
+				} else if(myHand  == 0) {
+					System.out.println("あいこだよ！");
+				} else {
+					System.out.println("残念！もう一度挑戦しよう！！");
 				}
 
 
@@ -55,6 +59,10 @@ public class PTra04_05 {
 				System.out.println("チョキ！！");
 				if(myHand == 0) {
 					winFlg = true;
+				} else if(myHand  == 1) {
+					System.out.println("あいこだよ！");
+				} else {
+					System.out.println("残念！もう一度挑戦しよう！！");
 				}
 
 
@@ -62,11 +70,17 @@ public class PTra04_05 {
 				System.out.println("パー！！");
 				if(myHand == 1) {
 					winFlg = true;
+				} else if(myHand  == 2) {
+					System.out.println("あいこだよ！");
+				} else {
+					System.out.println("残念！もう一度挑戦しよう！！");
 				}
 
 			}
 
 		}
+		System.out.println("");
+		System.out.println("あなたの勝ち！！");
 	}
 }
 
