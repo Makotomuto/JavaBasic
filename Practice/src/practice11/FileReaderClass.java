@@ -32,6 +32,7 @@ public class FileReaderClass {
 		try(Scanner scanner = new Scanner(new File("csv/bookData.csv"))) {
 			while(scanner.hasNext()) {
 				fileRow[index] = scanner.nextLine();
+				
 				index++;
 			}
 

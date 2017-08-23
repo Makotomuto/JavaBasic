@@ -66,6 +66,7 @@ public class Character {
 	 * @return	体力が0になったらtrue、まだ体力が残っていたらfalse
 	 */
 	public boolean damage(int attack) {
+
 		// ダメージ計算
 		int calc = attack - this.endurance;
 		if (calc <= 0) {
@@ -75,6 +76,9 @@ public class Character {
 
 		// ダメージ分体力を減らす
 		this.hp -= calc;
+
+		System.out.println(this.showParameter());
+
 
 		// 体力がなくなったかどうかの判定
 		if (this.hp <= 0) {
