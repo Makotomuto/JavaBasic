@@ -20,7 +20,7 @@ public class Item {
 		this.additionalDamage = additionalDamage;
 	}
 
-	public Item() {
+	public Item(String name,int additionalDamage) {
 		this.setName(name);
 		this.setAdditionalDamage(additionalDamage);
 	}

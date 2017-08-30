@@ -36,6 +36,10 @@ public class Character {
 		this.endurance = endurance;
 	}
 
+	public int getPower() {
+		return this.power;
+	}
+
 	/**
 	 * 名前を設定します
 	 * @param name	設定したい名前
